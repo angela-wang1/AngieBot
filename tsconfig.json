@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es2016", //targeting javascript ver 2019
+    "module": "commonjs", //targeting node development
+    "outDir": "./lib", //where we are sending it out to 
+    "rootDir": "./src", //where we are getting the source code
+    "sourceMap": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./lib/.tsbuildinfo"
+  }
+}
